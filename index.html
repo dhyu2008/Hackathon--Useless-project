@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Medicine Reminder Alarm</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>💊 Medicine Reminder</h1>
+
+        <p>Never miss your medicine!</p>
+
+        <div class="reminder-box">
+
+            <label>Medicine Name</label>
+
+            <input type="text" id="medicineName"
+                   placeholder="Enter medicine name">
+
+            <label>Medicine Time</label>
+
+            <input type="time" id="medicineTime">
+
+            <button onclick="setReminder()">
+                🔔 Set Reminder
+            </button>
+
+        </div>
+
+        <h2>📋 Your Reminder</h2>
+
+        <div id="reminderList"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
